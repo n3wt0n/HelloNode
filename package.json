@@ -1,0 +1,17 @@
+{
+  "name": "hellonode",
+  "version": "1.0.0",
+  "description": "A Hello World HTTP server",
+  "main": "main.js",
+  "scripts": {
+    "test": "node test.js",
+    "start": "node main.js"
+  },
+  "keywords": [
+    "node",
+    "docker",
+    "dockerfile"
+  ],
+  "devDependencies": { "test": ">=0.6.0" }
+}
+
