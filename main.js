@@ -4,7 +4,7 @@ var http = require('http');
 // configure our HTTP server
 var server = http.createServer(function (request, response) {
   response.writeHead(200, {"Content-Type": "text/html"});
-  response.end("<h1>Hello Developer Camp! :)</h1>\n");
+  response.end("<h1>Hello Microsoft Build 2020! :)</h1>\n");
 });
 
 // listen on localhost:8000
