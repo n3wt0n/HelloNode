@@ -2,6 +2,10 @@
   "name": "hellonode",
   "version": "1.0.0",
   "description": "A Hello World HTTP server",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/n3wt0n/hellonode"
+  }
   "main": "main.js",
   "scripts": {
     "test": "node test.js",
