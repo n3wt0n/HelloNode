@@ -4,7 +4,7 @@ var http = require('http');
 // configure our HTTP server
 var server = http.createServer(function (request, response) {
   response.writeHead(200, {"Content-Type": "text/html"});
-  response.end("<h1>Hello YouTube from Docker! :)</h1>\n");
+  response.end("<h1>Hello :)</h1>\n");
 });
 
 // listen on localhost:2345
